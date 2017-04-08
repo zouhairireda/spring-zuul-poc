@@ -22,6 +22,7 @@ public class SimpleFilter extends ZuulFilter {
 
 	@Override
 	public boolean shouldFilter() {
+		log.info("Filtering");
 		return true;
 	}
 
